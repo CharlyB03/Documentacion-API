@@ -196,3 +196,4 @@ http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
 
 ### Prueba EndPoint - POST
 
+A continuacion vamos a realiar un ingreso de un producto para probar el funcionamiento del endpoint
