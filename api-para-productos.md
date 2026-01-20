@@ -194,6 +194,82 @@ http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
 }
 ```
 
+
+
 ### Prueba EndPoint - POST
 
-A continuacion vamos a realiar un ingreso de un producto para probar el funcionamiento del endpoint
+Ahora vamos a crear un tercero de prueba para ver el funcionamiento del endpoint
+
+```
+POST http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
+```
+
+#### Headers
+
+<table><thead><tr><th></th><th width="374"></th></tr></thead><tbody><tr><td>Content-Type</td><td>application/json</td></tr></tbody></table>
+
+#### Autenticacion
+
+> Username: Openbravo
+>
+> Password: 1234
+
+#### Ejemplo&#x20;
+
+```
+http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
+```
+
+#### Body
+
+```json
+{
+  "sku": "PRUEBA-WS-001",
+  "name": "PRODUCTO PRUEBA WS",
+  "upc": null,
+  "uomCode": "100",
+  "categoryCode": "31",
+  "taxCategoryCode": "RETENCIONES IVA",
+  "productType": "I",
+  "isStocked": true,
+  "isPurchased": true,
+  "isSale": true,
+  "prices": [
+    {
+      "priceListCode": "VENTA-DOLARES",
+      "standardPrice": 4,
+      "listPrice": 4,
+      "priceLimit": 0,
+      "cost": 0
+    }
+  ]
+}
+
+```
+
+#### Resultado: OK
+
+```json
+{
+  "status": 0,
+  "data": {
+    "id": "B5CD1C53BBA94C5ABE5D44B73828942F",
+    "sku": "PRUEBA-WS-001",
+    "name": "PRODUCTO PRUEBA WS",
+    "upc": "null",
+    "category": "31_PRODUCTO DE CONTROL",
+    "unit": {
+      "id": "100",
+      "name": "Unit"
+    },
+    "isStocked": true,
+    "isPurchased": true,
+    "isSale": true,
+    "isGeneric": false,
+    "productType": "I",
+    "priceList": [],
+    "prices": []
+  },
+  "message": ""
+}
+```
