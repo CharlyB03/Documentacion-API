@@ -1,3 +1,3 @@
 # Table of contents
 
-* [REAMI](README.md)
+* [README](README.md)
