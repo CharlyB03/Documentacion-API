@@ -3,7 +3,7 @@
 Se detalla sobre el funcionamiento del API para productos
 
 ```
-GET http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
+GET http://186.4.199.239:61034/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
 ```
 
 #### Headers
@@ -19,7 +19,7 @@ GET http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
 ### Prueba de EndPoint - GET&#x20;
 
 ```
-http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products?code=0013
+http://186.4.199.239:61034/estandar/ws/ec.com.sidesoft.custom.ws.api.Products?code=0013
 ```
 
 Resultado OK :
@@ -84,7 +84,7 @@ Resultado OK :
 Este endpoint nos ayudara a actualizar un registro de productos&#x20;
 
 ```
-PUT http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
+PUT http://186.4.199.239:61034/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
 ```
 
 #### Headers
@@ -100,7 +100,7 @@ PUT http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
 #### Ejemplo&#x20;
 
 ```
-http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
+http://186.4.199.239:61034/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
 ```
 
 #### Body
@@ -201,7 +201,7 @@ http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
 Ahora vamos a crear un tercero de prueba para ver el funcionamiento del endpoint
 
 ```
-POST http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
+POST http://186.4.199.239:61034/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
 ```
 
 #### Headers
@@ -217,7 +217,7 @@ POST http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
 #### Ejemplo&#x20;
 
 ```
-http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
+http://186.4.199.239:61034/estandar/ws/ec.com.sidesoft.custom.ws.api.Products
 ```
 
 #### Body

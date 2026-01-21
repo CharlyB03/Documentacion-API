@@ -3,7 +3,7 @@
 Se detalla sobre el funcionamiento del API para Terceros
 
 ```
-GET http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner?taxId=1799999999001
+GET http://186.4.199.239:61034/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner?taxId=1799999999001
 ```
 
 #### Headers
@@ -21,7 +21,7 @@ GET http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPart
 Para poder obtener alguna informacion de nuestro tercero hacemos la busqueda por medio del identificador&#x20;
 
 ```
-http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner?taxId=http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner?taxId=1799999999001
+http://186.4.199.239:61034/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner?taxId=http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner?taxId=1799999999001
 ```
 
 #### Resultado: OK
@@ -61,7 +61,7 @@ http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner?
 Como vemos en el GET anterior tenemos en province un valor de 01 Ahora con este endpoint vamos a actualizar a 17 que es otro codigo de otra provincia&#x20;
 
 ```
-PUT http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner
+PUT http://186.4.199.239:61034/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner
 ```
 
 #### Headers
@@ -77,7 +77,7 @@ PUT http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPart
 #### Ejemplo&#x20;
 
 ```
-http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner
+http://186.4.199.239:61034/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner
 ```
 
 #### Body
@@ -141,7 +141,7 @@ http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner
 Ahora vamos a crear un tercero de prueba para ver el funcionamiento del endpoint
 
 ```
-POST http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner
+POST http://186.4.199.239:61034/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner
 ```
 
 #### Headers
@@ -157,7 +157,7 @@ POST http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPar
 #### Ejemplo&#x20;
 
 ```
-http://localhost:8080/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner
+http://186.4.199.239:61034/estandar/ws/ec.com.sidesoft.custom.ws.api.businessPartner
 ```
 
 #### Body
